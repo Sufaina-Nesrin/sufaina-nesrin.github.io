@@ -177,8 +177,16 @@ footer a {
 .aboutPara {
   font-size: 18px;
 }
+
+@media screen and (min-width: 50em) {
+  #serviceSection{
+    padding: 20px;
+  }
+
+}
 #serviceSection {
   background-color: #f3f3f3;
+
   padding-bottom: 7%;
 }
 .serviceHead {
